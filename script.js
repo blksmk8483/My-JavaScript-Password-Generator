@@ -27,8 +27,8 @@ function writePassword() {
 
 
     if (truePrompts) {
-        var newPassword = generatePassword();
-        passwordTextArea.value = newPassword;
+        var altPassword = generatePassword();
+        passwordTextArea.value = altPassword;
     } else {
         passwordTextArea.value = " ";
     }
