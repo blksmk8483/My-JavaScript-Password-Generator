@@ -6,8 +6,8 @@
 
 ## Description
 - In this challenge I used JavaScript to make a random generated password.
-- I used a function to generate my password
-- I used if window.comand to get my prompts.
+- I used a function to generate my password.
+- I used if window.command to get my prompts.
 
 - In the future of this particular project I realize that I am getting the correct number of characters
 but it is always choosing from all four arrays.  I want to fix this.
