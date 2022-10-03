@@ -55,7 +55,7 @@ function myPrompts() {
 
     //Gets me how many characters
     //I was missing ()
-    characterLength = parseInt(window.prompt("How many characters would you like your password to be? (8 - 128 characters"));
+    characterLength = parseInt(window.prompt("How many characters would you like your password to be? (8 - 128 characters)"));
 
     if (characterLength < 8 || characterLength > 128) {
         alert("Character length has to be a number between (8-128). Please try again.");
